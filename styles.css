@@ -1,0 +1,217 @@
+/* General settings */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  font-size: 14px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+/* Wrapper img + wrapper login */
+.instagram-wrapper{
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  width: 60%;
+  height: 85vh;
+}
+
+/* Cellphone img container */
+.cellphone-img {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 15px;
+}
+
+.cellphone-img img {
+  height: 630px;
+  width: auto;
+}
+
+/* Login + subscribe + ap-downloads */
+.account-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 15px;
+}
+
+/* Login wrapper */
+.login-container {
+  flex-direction: column;
+  height: 420px;
+  width: 70%;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  background-color: #fff;
+}
+
+.insta-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+
+/* Login inputs container */
+.login {
+  align-items: center;
+  flex-direction: column;
+}
+
+.login input {
+  width: 85%;
+  height: 36px;
+  background-color: rgba(var(--b3f,250,250,250),1);
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 3px;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.input-login {
+  margin-bottom: 10px;
+}
+
+.input-password {
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  width: 85%;
+  background-color: rgba(var(--d69,0,149,246),1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 9px;
+  cursor: pointer;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.or-ruler {
+  width: 85%;
+  color: rgba(var(--f52,142,142,142),1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.or-ruler::before{
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: rgba(var(--ca6,219,219,219),1);
+}
+
+.or-ruler::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: rgba(var(--ca6,219,219,219),1);
+}
+
+.facebook-login-btn {
+  width: 85%;
+  color:#385185;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook-login-btn img {
+  width: 17px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.forget-pass-link {
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  color: #00376b;
+}
+
+/*  Subscribe container */
+.subscribe {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  background-color: #fff;
+  height: 70px;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.subscribe p a {
+  font-weight: 600;
+  color: rgba(var(--d69,0,149,246),1);
+}
+
+/* Apps download wrapper */
+.app-download{
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.app-imgs {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.app-imgs img {
+  width: 170px;
+  height: auto;
+  padding-top: 30px;
+}
+
+/* Footer */
+.footer-section {
+  max-width: 60%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+footer div {
+  margin: 8px auto;
+}
+
+footer a {
+  margin: auto 10px;
+  color: rgba(var(--f52,142,142,142),1);
+  text-decoration: none;
+}
